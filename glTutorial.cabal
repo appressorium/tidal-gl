@@ -1,0 +1,17 @@
+executable glTutorial
+  main-is: newlhs.lhs
+
+  build-depends:    base                  ,
+                    base-unicode-symbols  ,
+                    transformers          ,
+                    vector                ,
+                    text                  ,
+                    gl                    ,
+                    GLFW-b                ,
+                    linear                ,
+                    distributive          ,
+                    lens                  ,
+                    JuicyPixels           
+
+  default-language: Haskell2010
+
